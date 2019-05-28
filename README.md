@@ -1,2 +1,2 @@
 
-Git repo for Contrast Security hands-on lab at HJUG ay 2019
+Git repo for Contrast Security IAST/RASP hands-on lab at HJUG May 2019
