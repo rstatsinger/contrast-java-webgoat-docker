@@ -1,1 +1,1 @@
-docker build `pwd` -t hjugdockerwebgoat
+docker build `pwd` -t dockerwebgoat
