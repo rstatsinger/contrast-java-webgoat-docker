@@ -1,5 +1,0 @@
-
-# run command to start WebGoat with the Contrast IAST/RASP agent
-
-java -Dcontrast.app.activity.period=5000 -Dcontrast.server.activity.period=5000 -Dcontrast.standalone.appname=WebGoatHJUG -Dcontrast.server=HJUGLabServer -javaagent:contrast.jar -jar webgoat-container-7.1-exec.jar --server.port=8080
-
