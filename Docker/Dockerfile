@@ -2,7 +2,7 @@
 
 FROM anapsix/alpine-java:jdk8
 
-# TODO Edit the following three lines and substitute the keys from your Contrast Security CE Your Account page
+# TODO Edit the following four lines and substitute the keys from your Contrast Security CE Your Account page
 
 ENV OrgID=<Replace with your Organization ID>
 
@@ -10,9 +10,12 @@ ENV Auth=<Replace with your Authorization Header>
 
 ENV APIKey=<Replace with your API Key>
 
-# End TODO
+# uncomment one of the following lines, depending if you're in an Eval POC, or using Community Edition
 
-ENV CONTRAST__BASEURL=https://ce.contrastsecurity.com/Contrast/api/ng/$OrgID
+# ENV CONTRAST__BASEURL=https://ce.contrastsecurity.com/Contrast/api/ng/$OrgID
+# ENV CONTRAST__BASEURL=https://eval.contrastsecurity.com/Contrast/api/ng/$OrgID
+
+# End TODO
 
 RUN mkdir /opt/app
 RUN mkdir /opt/contrast
