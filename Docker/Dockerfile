@@ -2,7 +2,7 @@
 
 FROM anapsix/alpine-java:jdk8
 
-# TODO Edit the following four lines and substitute the keys from your Contrast Security CE Your Account page
+# TODO Edit the following four lines and substitute the keys from your Contrast Security Your Account page
 
 ENV OrgID=<Replace with your Organization ID>
 
