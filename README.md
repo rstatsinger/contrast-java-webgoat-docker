@@ -9,4 +9,4 @@ Pre-requisites: Docker and a web browser. Note: if you run a Windows PC, I sugge
 
 2. Use the https://github.com/rstatsinger/IASTRASPLab/blob/master/WebGoatLab.pdf to guide you through hands-on use cases once you have things set up.
 
-3. Start planning how to apply DevSecOps to your own processes and culture!
+3. Start planning how to apply DevSecOps to your own applications, processes, and culture!
