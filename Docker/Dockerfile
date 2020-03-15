@@ -1,4 +1,4 @@
-# Dockerfile to run WebGoat 7.1 with Contrast Security Community Edition
+# Dockerfile to run WebGoat 7.1 with Contrast Security
 
 FROM anapsix/alpine-java:jdk8
 
