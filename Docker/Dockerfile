@@ -10,7 +10,8 @@ ENV Auth=<Replace with your Authorization Header>
 
 ENV APIKey=<Replace with your API Key>
 
-# uncomment one of the following lines, depending if you're in an Eval POC, or using Community Edition
+# Uncomment one of the following lines, depending on whether you have an existing account 
+# in our Eval environment, or are using Community Edition
 
 # ENV CONTRAST__BASEURL=https://ce.contrastsecurity.com/Contrast/api/ng/$OrgID
 # ENV CONTRAST__BASEURL=https://eval.contrastsecurity.com/Contrast/api/ng/$OrgID
