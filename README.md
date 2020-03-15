@@ -1,7 +1,7 @@
 
 Contrast Security IAST/RASP hands-on lab that will help you jumpstart your DevSecOps journey. 
 
-Pre-requisites: A Contrast Security account, Docker, and a web browser. 
+Prerequisites: A Contrast Security account, Docker, and a web browser. 
 
 Note: if you run a Windows PC, I suggest you install VirtualBox on it, create a Linux VM inside VirtualBox, install Docker on the VM, and run the Docker steps from there. If you have a Mac, just install Docker on it (if you haven't already), and you're good to go.
 
