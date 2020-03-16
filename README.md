@@ -11,11 +11,11 @@ This lab should take you less than 30 minutes to get up and running. If you have
 
 ## Setup
 
-1. If you don't already have a Contrast account, you can sign up for a free one-license Contrast Security Community Edition (CE) account at https://www.contrastsecurity.com/contrast-community-edition. Follow the instructions in the https://github.com/rstatsinger/IASTRASPLab/blob/master/CESetup.pdf file. It will:
+1. If you don't already have a Contrast account, you can sign up for a free one-license Contrast Security Community Edition (CE) account at https://www.contrastsecurity.com/contrast-community-edition. Follow the instructions in https://github.com/rstatsinger/IASTRASPLab/blob/master/CESetup.pdf. It will:
 
-- lead you through Contrast CE signup
-- help you onboard WebGoat into CE using Docker
+  - lead you through Contrast CE signup
+  - help you onboard WebGoat into CE using Docker
 
-2. Use the https://github.com/rstatsinger/IASTRASPLab/blob/master/WebGoatLab.pdf to guide you through hands-on use cases once you have things set up.
+2. Use https://github.com/rstatsinger/IASTRASPLab/blob/master/WebGoatLab.pdf to guide you through hands-on use cases once you have things set up.
 
 3. Start planning how to apply DevSecOps to your own applications, processes, and culture!
