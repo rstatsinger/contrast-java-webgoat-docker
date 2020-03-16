@@ -1,5 +1,7 @@
 
-# Contrast Security IAST/RASP hands-on lab that will help you jumpstart your DevSecOps journey. 
+# Contrast Security IAST/RASP hands-on Lab
+
+## Jumpstart your DevSecOps journey. 
 
 ## Prerequisites: A Contrast Security account, Docker, and a web browser. 
 
