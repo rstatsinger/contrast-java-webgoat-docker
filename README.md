@@ -3,7 +3,7 @@
 
 ## Jumpstart your DevSecOps journey!
 
-## Prerequisites: A Contrast Security account, Docker, and a web browser
+## Prerequisites: A Contrast Security account, experience with Docker, and a web browser
 
 Note: if you run Windows, I suggest you install VirtualBox on it, create a Linux VM inside VirtualBox, install Docker on the VM, and run the Docker steps from there. If you have a Mac, just install Docker on it (if you haven't already), and you're good to go.
 
