@@ -5,8 +5,6 @@
 
 ## Prerequisites: A Contrast Security account, experience with Docker, and a web browser
 
-Note: if you run Windows, I suggest you install VirtualBox on it, create a Linux VM inside VirtualBox, install Docker on the VM, and run the Docker steps from there. 
-
 This lab should take you less than 30 minutes to get up and running. If you have trouble, definitely reach out to me!
 
 If you don't already have a Contrast Security account, you can sign up for a free one-license Community Edition (CE) account at https://www.contrastsecurity.com/contrast-community-edition. 
