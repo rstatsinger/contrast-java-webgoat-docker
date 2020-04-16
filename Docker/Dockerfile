@@ -2,7 +2,7 @@
 
 FROM anapsix/alpine-java:jdk8
 
-# TODO Edit the following three lines and substitute the keys from your Contrast Security Your Account page
+# TODO Edit the following 3 lines and substitute the keys from your Contrast Security Your Account page
 
 ENV OrgID=<Replace with your Organization ID>
 
@@ -10,7 +10,11 @@ ENV Auth=<Replace with your Authorization Header>
 
 ENV APIKey=<Replace with your API Key>
 
-# Uncomment one of the following lines, depending on whether you have an existing account 
+# TODO Add your initials to tbe begining or end of the AppName
+
+ENV AppName=WebGoatDocker
+
+# TODO Uncomment one of the following lines, depending on whether you have an existing account 
 # in our Eval environment, or are using Community Edition
 
 # ENV CONTRAST__BASEURL=https://ce.contrastsecurity.com/Contrast/api/ng/$OrgID
@@ -29,4 +33,4 @@ RUN curl --max-time 10 $CONTRAST__BASEURL/agents/default/JAVA?jvm=1_5 -H API-Key
 
 EXPOSE 8080
 
-CMD ["java","-javaagent:/opt/contrast/contrast.jar","-Dcontrast.standalone.appname=WebGoatDocker","-Dcontrast.server=DockerServer","-jar","/opt/app/webgoat.jar"]
+CMD ["java","-javaagent:/opt/contrast/contrast.jar","-Dcontrast.standalone.appname=$AppName","-Dcontrast.server=$AppNameServer","-jar","/opt/app/webgoat.jar"]
