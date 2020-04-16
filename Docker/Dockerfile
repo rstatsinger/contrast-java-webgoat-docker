@@ -10,10 +10,6 @@ ENV Auth=<Replace with your Authorization Header>
 
 ENV APIKey=<Replace with your API Key>
 
-# TODO Add your initials to tbe begining or end of the AppName
-
-ENV AppName=WebGoatDocker
-
 # TODO Uncomment one of the following lines, depending on whether you have an existing account 
 # in our Eval environment, or are using Community Edition
 
@@ -33,4 +29,4 @@ RUN curl --max-time 10 $CONTRAST__BASEURL/agents/default/JAVA?jvm=1_5 -H API-Key
 
 EXPOSE 8080
 
-CMD ["java","-javaagent:/opt/contrast/contrast.jar","-Dcontrast.standalone.appname=$AppName","-Dcontrast.server=$AppNameServer","-jar","/opt/app/webgoat.jar"]
+CMD ["java","-javaagent:/opt/contrast/contrast.jar","-Dcontrast.standalone.appname=WebGoatDocker","-Dcontrast.server=WebGoatDockerServer","-jar","/opt/app/webgoat.jar"]
