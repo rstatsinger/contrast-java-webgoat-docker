@@ -1,5 +1,5 @@
 
-# IAST/RASP Hands-On Lab using Contrast Security's free Community Edition
+# Embedded AppSec Hands-On Lab using Contrast Security's free Community Edition
 
 ## Gain hands-on experience with Application Security Monitoring and jumpstart your DevSecOps journey!
 
