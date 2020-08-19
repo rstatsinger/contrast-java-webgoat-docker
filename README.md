@@ -1,7 +1,5 @@
 
-# Embedded AppSec Hands-On Lab using Contrast Security's free Community Edition
-
-## Gain hands-on experience with Application Security Monitoring and jumpstart your DevSecOps journey!
+# Security Observability: Hands-On Lab using Contrast Security's free Community Edition
 
 ## Prerequisites: A Contrast Security account, experience with Docker, and a web browser
 
