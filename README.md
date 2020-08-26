@@ -5,7 +5,7 @@
 
 This lab should take you less than 30 minutes to get up and running. If you have trouble, definitely reach out to me!
 
-If you don't already have a Contrast Security account, you can sign up for a free one-license Community Edition (CE) account [here] (https://bit.ly/341PrFu). 
+If you don't already have a Contrast Security account, you can sign up for a free one-license Community Edition (CE) account [here](https://bit.ly/341PrFu). 
 
 ## Setup
 
