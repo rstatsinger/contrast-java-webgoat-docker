@@ -1,7 +1,7 @@
 
 # JUMPSTART DEVSECOPS and SECURITY OBSERVABILITY - for FREE - with the Contrast Community Edition
 
-## Got a little Docker experience? This lab will be super easy for you.
+## Got a little Docker experience? This will be super easy for you.
 
 CLONE THIS REPO (or just grab all the files)
 
