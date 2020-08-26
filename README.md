@@ -9,7 +9,7 @@ If you don't already have a Contrast Security account, you can sign up for a fre
 
 ## Setup
 
-1. Follow the instructions in https://github.com/rstatsinger/IASTRASPLab/blob/master/CESetup.pdf. It will:
+1. Follow the instructions in [CESetup.md](CESetup.md). It will:
 
   - lead you through Contrast CE signup if needed
   - help you onboard WebGoat into CE using Docker
