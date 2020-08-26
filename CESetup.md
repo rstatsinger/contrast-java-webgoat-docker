@@ -44,9 +44,9 @@ GET READY…
 
 <img src="img/CESetup7.png" width=500px />
 
-	- Plug the Organization ID\, Authorization Token\, and API Key from the Your Account page into the Dockerfile
+	- Plug the *Organization ID*, *Authorization Token*, and *API Key* from the Your Account page into the Dockerfile
   	- Note: this is not best practice but we want to be expedient
-	- Doublecheck for correctness
+	- Doublecheck for correctness!
 
 GET SET…
 
