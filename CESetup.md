@@ -9,9 +9,7 @@ CLONE THIS REPO (or just grab all the files)
 	- Stash everything there
 	- Make a backup copy of theDockerfile
 
-SIGN UP FOR A Contrast Community Edition Account
-
-	- Sign up [here](https://bit.ly/341PrFu)
+SIGN UP FOR A Contrast Community Edition Account [here](https://bit.ly/341PrFu)
 	- Check your email for confirmation
 
 <img src="img/CESetup0.png" width=500px />
