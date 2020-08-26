@@ -3,13 +3,13 @@
 
 ## Got some Docker chops? This lab will be super easy for you.
 
-## CLONE THIS REPO (or just grab all the files): https://github\.com/rstatsinger/iastrasplab
+CLONE THIS REPO (or just grab all the files): https://github\.com/rstatsinger/iastrasplab
 
 	- Create a working directory
 	- Stash everything there
 	- Make a backup copy of theDockerfile
 
-## SIGN UP FOR A Contrast Community Edition Account
+SIGN UP FOR A Contrast Community Edition Account
 
 	- Sign up [here](https://bit.ly/341PrFu)
 	- Check your email for confirmation
