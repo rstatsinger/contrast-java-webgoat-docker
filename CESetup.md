@@ -1,7 +1,7 @@
 
-# JUMPSTART DEVSECOPS and SECURITY OBSERVABILITY FOR FREE USING Contrast Community Edition
+# JUMPSTART DEVSECOPS and SECURITY OBSERVABILITY - FOR FREE - with the Contrast Community Edition
 
-## Got some Docker chops? This lab will be super easy for you.
+## Got a little Docker experience? This lab will be super easy for you.
 
 CLONE THIS REPO (or just grab all the files)
 
@@ -18,14 +18,14 @@ SIGN UP FOR A Contrast Community Edition Account
 
 <img src="img/CESetup1.png" width=500px />
 
-## CONFIRM YOUR ACCOUNT….
+CONFIRM YOUR ACCOUNT….
 
 	- Confirm your new account from registration email
 	- Click Confirm Account to set your password
 
 <img src="img/CESetup2.png" width=500px />
 
-## GET STARTED…
+GET STARTED…
 
 	- Click Get Started
 	- Agree to the Ts & Cs
@@ -40,7 +40,7 @@ SIGN UP FOR A Contrast Community Edition Account
 	- Click the x at the top right so that you see the main dashboard
 	- Click the dropdown next to your name and go to the Your Account page:
 
-## GET READY…
+GET READY…
 
 <img src="img/CESetup6.png" width=500px />
 
@@ -50,13 +50,13 @@ SIGN UP FOR A Contrast Community Edition Account
   	- Note: this is not best practice but we want to be expedient
 	- Doublecheck for correctness
 
-## GET SET…
+GET SET…
 
 <img src="img/CESetup8.png" width=500px />
 
 <img src="img/CESetup9.png" width=154px />
 
-## GO!
+GO!
 
 % docker build \`pwd\` \-tdockerwebgoat
 
@@ -66,7 +66,7 @@ SIGN UP FOR A Contrast Community Edition Account
 
 <img src="img/CESetup11.png" width=154px />
 
-## You should be good to go! Next, crack open the [Lab Guide](https://github.com/rstatsinger/IASTRASPLab/blob/master/WebGoatLab.pdf)
+#You should be good to go! Next, crack open the [Lab Guide](https://github.com/rstatsinger/IASTRASPLab/blob/master/WebGoatLab.pdf)
 
 <img src="img/CESetup12.png" width=500px />
 
