@@ -64,7 +64,7 @@ GO!
 
 <img src="img/CESetup11.png" width=154px />
 
-#You should be good to go! Next, crack open the [Lab Guide](https://github.com/rstatsinger/IASTRASPLab/blob/master/WebGoatLab.pdf)
+## You should be good to go! Next, crack open the [Lab Guide](https://github.com/rstatsinger/IASTRASPLab/blob/master/WebGoatLab.pdf)
 
 <img src="img/CESetup12.png" width=500px />
 
