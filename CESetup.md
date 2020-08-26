@@ -3,7 +3,7 @@
 
 ## Got some Docker chops? This lab will be super easy for you.
 
-CLONE THIS REPO (or just grab all the files): https://github\.com/rstatsinger/iastrasplab
+CLONE THIS REPO (or just grab all the files)
 
 	- Create a working directory
 	- Stash everything there
