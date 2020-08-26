@@ -14,6 +14,6 @@ If you don't already have a Contrast Security account, you can sign up for a fre
   - lead you through Contrast CE signup if needed
   - help you onboard WebGoat into CE using Docker
 
-2. Use https://github.com/rstatsinger/IASTRASPLab/blob/master/WebGoatLab.pdf to guide you through hands-on use cases once you have things set up.
+2. Use [WebGoatLab.pdf](WebGoatLab.pdf) to guide you through some hands-on use cases once you have things set up.
 
-3. Start planning how to apply DevSecOps to your own applications, processes, and culture!
+3. Start planning how to apply DevSecOps to your own applications, processes, and culture, and increase your Security Observability!
