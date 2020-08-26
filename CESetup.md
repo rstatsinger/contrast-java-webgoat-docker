@@ -58,7 +58,7 @@ GO!
 
 % docker build \`pwd\` \-tdockerwebgoat
 
-% dockerrun \-\-rm–p 8080:8080 –tdockerwebgoat
+% docker run \-\-rm–p 8080:8080 –tdockerwebgoat
 
 <img src="img/CESetup10.png" width=500px />
 
