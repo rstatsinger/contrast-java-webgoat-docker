@@ -10,13 +10,9 @@ ENV Auth=<Replace with your Authorization Header>
 
 ENV APIKey=<Replace with your API Key>
 
-# TODO Uncomment one of the following lines, depending on whether you have an existing account 
-# in our Eval environment, or are using Community Edition
-
-# ENV CONTRAST__BASEURL=https://ce.contrastsecurity.com/Contrast/api/ng/$OrgID
-# ENV CONTRAST__BASEURL=https://eval.contrastsecurity.com/Contrast/api/ng/$OrgID
-
 # End TODO
+
+ENV CONTRAST__BASEURL=https://ce.contrastsecurity.com/Contrast/api/ng/$OrgID
 
 RUN mkdir /opt/app
 RUN mkdir /opt/contrast
