@@ -1,13 +1,13 @@
 
 # JUMPSTART DEVSECOPS and SECURITY OBSERVABILITY - for FREE - with the Contrast Community Edition
 
-## Got a little Docker experience? This will be super easy for you.
+## Got a little Docker experience? This will be easy.
 
 CLONE THIS REPO (or just grab all the files)
 
 	- Create a working directory
 	- Stash everything there
-	- Make a backup copy of theDockerfile
+	- Make a backup copy of the Dockerfile
 
 SIGN UP FOR A Contrast Community Edition Account [here](https://bit.ly/341PrFu)
 	- Check your email for confirmation
