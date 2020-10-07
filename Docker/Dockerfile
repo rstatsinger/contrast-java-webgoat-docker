@@ -21,7 +21,7 @@ RUN apk update && apk add ca-certificates && update-ca-certificates && apk add o
 RUN apk update; apk add curl
 RUN wget https://github.com/WebGoat/WebGoat/releases/download/7.1/webgoat-container-7.1-exec.jar -O /opt/app/webgoat.jar
 
-RUN curl --max-time 10 $CONTRAST__BASEURL/agents/default/JAVA?jvm=1_5 -H API-Key:$APIKey -H Authorization:$Auth -o /opt/contrast/contrast.jar
+RUN curl --max-time 20 $CONTRAST__BASEURL/agents/default/JAVA?jvm=1_5 -H API-Key:$APIKey -H Authorization:$Auth -o /opt/contrast/contrast.jar
 
 EXPOSE 8080
 
