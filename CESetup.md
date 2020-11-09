@@ -36,7 +36,7 @@ GET STARTED…
 <img src="img/CESetup5.png" width=450px />
 
 	- Click the x at the top right so that you see the main dashboard
-	- Click the dropdown next to your name and go to the Your Account page:
+	- Click the dropdown next to your name and go to your User Settings page:
 
 GET READY…
 
@@ -44,7 +44,7 @@ GET READY…
 
 <img src="img/CESetup7.png" width=500px />
 
-	- Plug the Organization ID, Authorization Header, and API Key from the Your Account page into the proper locations in the Dockerfile
+	- Click Profile on the left. Plug the Organization ID, Authorization Header, and API Key from the Profile page into the proper locations in the Dockerfile
   	- Note: this is not best practice but we want to be expedient
 	- Doublecheck for correctness!
 
