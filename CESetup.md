@@ -56,9 +56,9 @@ GET SET…
 
 GO!
 
-% docker build \`pwd\` \-tdockerwebgoat
+% docker build \`pwd\` \-t dockerwebgoat
 
-% docker run \-\-rm –p 8080:8080 –tdockerwebgoat
+% docker run \-\-rm –p 8080:8080 –t dockerwebgoat
 
 <img src="img/CESetup10.png" width=500px />
 
