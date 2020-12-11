@@ -3,7 +3,7 @@
 
 ## Prerequisites: A Contrast Security account, experience with Docker, and a web browser
 
-If you have trouble, definitely reach out to me!
+If you have trouble - or even if you don't - definitely reach out to me at robert.statsinger@contrastsecurity.com.
 
 If you don't already have a Contrast Security account, you can sign up for a free one-license Community Edition (CE) account [here](https://bit.ly/341PrFu). 
 
