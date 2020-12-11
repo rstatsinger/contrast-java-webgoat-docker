@@ -3,9 +3,7 @@
 
 ## Prerequisites: A Contrast Security account, experience with Docker, and a web browser
 
-If you have trouble - or even if you don't - definitely reach out to me at robert.statsinger@contrastsecurity.com.
-
-If you don't already have a Contrast Security account, you can sign up for a free one-license Community Edition (CE) account [here](https://bit.ly/341PrFu). 
+If you don't have a Contrast Security account, you can sign up for a free one-license Community Edition (CE) account [here](https://bit.ly/341PrFu). 
 
 ## Setup
 
@@ -17,3 +15,5 @@ If you don't already have a Contrast Security account, you can sign up for a fre
 2. Use [WebGoatLab.pdf](WebGoatLab.pdf) to guide you through some hands-on use cases once you have things set up.
 
 3. Start planning how to apply DevSecOps to your own applications, processes, and culture, and increase your Security Observability!
+
+If you have trouble - or if you don't and you just want to discuss the results - please reach out to me at robert.statsinger@contrastsecurity.com.
