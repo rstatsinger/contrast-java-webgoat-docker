@@ -1,9 +1,11 @@
 
 # Security Observability: Hands-On Lab using Contrast Security's free Community Edition
 
-## Prerequisites: A Contrast Security account, experience with Docker, and a web browser
+## Prerequisites: A Contrast Security account, Docker Desktop, and a web browser
 
 If you don't have a Contrast Security account, you can sign up for a free one-license Community Edition (CE) account [here](https://bit.ly/341PrFu). 
+
+This lab has been tested for Docker Desktop on Mac. It will probably work on Linux, too.
 
 ## Setup
 
