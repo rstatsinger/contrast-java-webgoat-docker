@@ -10,7 +10,9 @@ ENV Auth=<Replace with your Authorization Header>
 
 ENV APIKey=<Replace with your API Key>
 
-# End TODO
+# If you are using our Community Edition, this URL is what you need. If you already have a Contrast account or
+# you are in a formal evaluation with us, change the resource name (the ce.contrastsecurity.com portion of the URL)
+# to reflect your Contrast TeamServer
 
 ENV CONTRAST__BASEURL=https://ce.contrastsecurity.com/Contrast/api/ng/$OrgID
 
