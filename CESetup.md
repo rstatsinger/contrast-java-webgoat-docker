@@ -52,6 +52,8 @@ Then rename .env.template to .env
 
 GET SET…
 
+Double check the CONTRAST__API__URL in the Dockerfile. If you are using the Community Edition, it's all set. If you are using a different Contrast environment (such as eval, or your own TeamServer environment), change the URL accordingly.
+
 GO!
 
 ```shell
