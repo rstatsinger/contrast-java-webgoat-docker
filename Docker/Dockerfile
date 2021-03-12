@@ -1,32 +1,33 @@
 # Dockerfile to run WebGoat 7.1 with Contrast Security
+FROM adoptopenjdk/openjdk8:debianslim
 
-FROM anapsix/alpine-java:jdk8
 
-# TODO Edit the following 3 lines and substitute the keys from your Contrast Security Your Account page
+# Install WebGoat
+# we do not use the WebGoat Docker image because it is based on Debian Jessie which is end of life
+ADD https://github.com/WebGoat/WebGoat/releases/download/7.1/webgoat-container-7.1-exec.jar /opt/webgoat/webgoat-container-7.1-exec.jar
 
-ENV OrgID=<Replace with your Organization ID>
-
-ENV Auth=<Replace with your Authorization Header>
-
-ENV APIKey=<Replace with your API Key>
-
-# End TODO
 
 # If you are using our Community Edition, this URL is what you need. If you already have a Contrast account or
 # you are in a formal evaluation with us, change the resource name (the ce.contrastsecurity.com portion of the URL)
 # to reflect your Contrast TeamServer
+ENV CONTRAST__API__URL=https://ce.contrastsecurity.com/Contrast
 
-ENV CONTRAST__BASEURL=https://ce.contrastsecurity.com/Contrast/api/ng/$OrgID
 
-RUN mkdir /opt/app
-RUN mkdir /opt/contrast
+# Install Contrast agent
+RUN apt-get update \
+  && apt-get install -y gnupg \
+  && curl https://pkg.contrastsecurity.com/api/gpg/key/public | apt-key add - \
+  && echo "deb https://pkg.contrastsecurity.com/debian-public/ all contrast" > /etc/apt/sources.list.d/contrast-all.list \
+  && apt-get update \
+  && apt-get install -y contrast-java-agent
 
-RUN apk update && apk add ca-certificates && update-ca-certificates && apk add openssl
-RUN apk update; apk add curl
-RUN wget https://github.com/WebGoat/WebGoat/releases/download/7.1/webgoat-container-7.1-exec.jar -O /opt/app/webgoat.jar
 
-RUN curl --max-time 20 $CONTRAST__BASEURL/agents/default/JAVA -H API-Key:$APIKey -H Authorization:$Auth -o /opt/contrast/contrast.jar
+# Configure Contrast for WebGoat
+ENV CONTRAST__AGENT__JAVA__STANDALONE_APP_NAME=WebGoatDocker \
+  CONTRAST__PROTECT__RULES__SQL_INJECTION__DETECT_TAUTOLOGIES=true \
+  CONTRAST__SERVER__NAME=WebGoatDockerServer \
+  CONTRAST__AGENT__LOGGER__STDERR=true
 
 EXPOSE 8080
 
-CMD ["java","-javaagent:/opt/contrast/contrast.jar","-Dcontrast.standalone.appname=WebGoatDocker","-Dcontrast.protect.rules.sql-injection.detect_tautologies=true","-Dcontrast.server=WebGoatDockerServer","-jar","/opt/app/webgoat.jar"]
+CMD ["java","-javaagent:/opt/contrast/contrast-agent.jar","-jar","/opt/webgoat/webgoat-container-7.1-exec.jar"]

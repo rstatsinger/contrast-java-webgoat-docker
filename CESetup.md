@@ -1,13 +1,8 @@
-
 # JUMPSTART DEVSECOPS and SECURITY OBSERVABILITY - for FREE - with the Contrast Community Edition, WebGoat, and Docker
 
 ## Got a little Docker experience? This will be easy.
 
 CLONE THIS REPO (or just grab all the files)
-
-	- Create a working directory
-	- Stash everything there
-	- Make a backup copy of the Dockerfile
 
 SIGN UP FOR A Contrast Community Edition Account [here](https://bit.ly/341PrFu)
 	- Check your email for confirmation
@@ -44,9 +39,14 @@ GET READY…
 
 <img src="img/CESetup7.png" width=500px />
 
-	- Click Profile on the left. Plug the Organization ID, Authorization Header, and API Key from the Profile page into the proper locations in the Dockerfile
-  	- Note: this is not best practice but we want to be expedient
-	- Doublecheck for correctness!
+Click Profile on the left. Copy the API Key, Service Key, and User Name from the
+Profile page to the `./Docker/.env` file like so:
+
+```
+CONTRAST__API__USER_NAME=<your-user-name>
+CONTRAST__API__API_KEY=<your-api-key>
+CONTRAST__API__SERVICE_KEY=<your-service-key>
+```
 
 GET SET…
 
@@ -56,9 +56,9 @@ GET SET…
 
 GO!
 
-% docker build \`pwd\` \-t dockerwebgoat
-
-% docker run \-\-rm –p 8080:8080 –t dockerwebgoat
+```shell
+docker-compose run --rm webgoat
+```
 
 <img src="img/CESetup10.png" width=500px />
 
