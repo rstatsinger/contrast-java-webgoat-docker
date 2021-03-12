@@ -52,10 +52,6 @@ Then rename .env.template to .env
 
 GET SET…
 
-<img src="img/CESetup8.png" width=500px />
-
-<img src="img/CESetup9.png" width=154px />
-
 GO!
 
 ```shell
