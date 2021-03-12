@@ -40,13 +40,15 @@ GET READY…
 <img src="img/CESetup7.png" width=500px />
 
 Click Profile on the left. Copy the API Key, Service Key, and User Name from the
-Profile page to the `./Docker/.env` file like so:
+Profile page to the `./Docker/.env.template` file like so:
 
 ```
 CONTRAST__API__USER_NAME=<your-user-name>
 CONTRAST__API__API_KEY=<your-api-key>
 CONTRAST__API__SERVICE_KEY=<your-service-key>
 ```
+
+Then rename .env.template to .env
 
 GET SET…
 
