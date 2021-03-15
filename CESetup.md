@@ -30,35 +30,29 @@ GET STARTED…
 
 <img src="img/CESetup5.png" width=450px />
 
-	- Click the x at the top right so that you see the main dashboard
-	- Click the dropdown next to your name and go to your User Settings page:
-
 GET READY…
 
-<img src="img/CESetup6.png" width=500px />
+	- Click the x at the top right so that you see the main dashboard
+	- Click the dropdown next to your name and go to your Organization Settings page
 
-<img src="img/CESetup7.png" width=500px />
+<img src="img/OrgAPI.png" width=500px />
 
-Click Profile on the left. Copy the API Key, Service Key, and User Name from the
+GET SET…
+
+Copy the Agent User Name, API Key, Service Key, and Contrast URL from the
 Profile page to the `./Docker/.env.template` file like so:
 
 ```
 CONTRAST__API__USER_NAME=<your-user-name>
 CONTRAST__API__API_KEY=<your-api-key>
 CONTRAST__API__SERVICE_KEY=<your-service-key>
+CONTRAST__API__URL=<your Contrast URL>
 ```
-
 Then rename .env.template to .env
-
-GET SET…
-
-Double check the CONTRAST__API__URL in the Dockerfile. If you are using the Community Edition, it's all set. If you are using a different Contrast environment (such as eval, or your own TeamServer environment), change the URL accordingly.
 
 GO!
 
-```shell
-docker-compose run --rm webgoat
-```
+Run the run.sh script
 
 <img src="img/CESetup10.png" width=500px />
 
