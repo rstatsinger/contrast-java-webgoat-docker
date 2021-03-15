@@ -4,8 +4,10 @@
 
 CLONE THIS REPO (or just grab all the files)
 
-SIGN UP FOR A Contrast Community Edition Account [here](https://bit.ly/341PrFu)
+If you don't already have a Contrast account, SIGN UP FOR A FREE Contrast Community Edition Account [here](https://bit.ly/341PrFu)
 	- Check your email for confirmation
+
+If you already have a Contrast account, skip ahead to the GET READY step.
 
 <img src="img/CESetup0.png" width=500px />
 
