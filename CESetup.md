@@ -35,7 +35,7 @@ GET READY…
 	- Click the x at the top right so that you see the main dashboard
 	- Click the dropdown next to your name and go to your Organization Settings page
 
-<img src="img/OrgAPI.png" width=500px />
+<img src="img/OrgAPI.png" height=500px width=450px />
 
 GET SET…
 
