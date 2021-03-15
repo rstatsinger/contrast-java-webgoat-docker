@@ -35,7 +35,7 @@ GET READY…
 	- Click the x at the top right so that you see the main dashboard
 	- Click the dropdown next to your name and go to your Organization Settings page
 
-<img src="img/OrgAPI.png" height=500px width=450px />
+<img src="img/OrgAPI.png" height=450px width=450px />
 
 GET SET…
 
@@ -48,7 +48,7 @@ CONTRAST__API__API_KEY=<your-api-key>
 CONTRAST__API__SERVICE_KEY=<your-service-key>
 CONTRAST__API__URL=<your Contrast URL>
 ```
-Then rename .env.template to .env
+**Then rename .env.template to .env**
 
 GO!
 
