@@ -5,6 +5,8 @@
 
 If you don't have a Contrast Security account, you can sign up for a free one-license Community Edition (CE) account [here](https://bit.ly/341PrFu). 
 
+If you already have a Contrast account or you're involved in a formal evaluation with us, you can still use this lab! See the instructions in the .env.template file.
+
 This lab has been tested for Docker Desktop on Mac. It will probably work on Linux, too.
 
 ## Setup
