@@ -1,4 +1,4 @@
-# JUMPSTART DEVSECOPS and SECURITY OBSERVABILITY for FREE - with the Contrast Community Edition, WebGoat, and Docker
+# JUMPSTART DEVSECOPS and SECURITY OBSERVABILITY for FREE - with Contrast Security, WebGoat, and Docker
 
 ## Got a little Docker experience? This will be easy.
 
