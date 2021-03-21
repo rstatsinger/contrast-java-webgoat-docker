@@ -4,7 +4,7 @@
 
 CLONE THIS REPO (or just grab all the files)
 
-If you don't already have a Contrast account, SIGN UP FOR A FREE Contrast Community Edition Account [here](https://bit.ly/341PrFu)
+If you don't already have a Contrast account, sign up for a FREE Contrast Community Edition Account [here](https://bit.ly/341PrFu)
 	- Check your email for confirmation
 
 If you already have a Contrast account, skip ahead to the GET READY step.
