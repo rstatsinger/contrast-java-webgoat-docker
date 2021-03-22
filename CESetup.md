@@ -54,11 +54,10 @@ CONTRAST__API__URL=<your Contrast URL>
 
 GO!
 
-Run the run.sh script
+Run the run.sh script and open WebGoat at localhost:8080/WebGoat:
 
 <img src="img/CESetup10.png" width=500px />
 
-<img src="img/CESetup11.png" width=154px />
 
 ## You should be good to go! Next, crack open the [Lab Guide](https://github.com/rstatsinger/IASTRASPLab/blob/master/WebGoatLab.pdf)
 
