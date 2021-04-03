@@ -1,7 +1,7 @@
 
 # Security Observability: Hands-On Lab using Contrast Security, Docker, and WebGoat
 
-In this lab, we will use Contrast Security with a deliberately insecure application called WebGoat to jumpstart your DevSecOps journey, hands-on.
+In this lab, we will use Contrast Security with a deliberately insecure application called WebGoat to jumpstart your DevSecOps journey, hands-on. Contrast injects security instrumentation into applications at runtime, letting you observe vulnerabilities as they are manifest, in both custom code and libraries.
 
 ## Prerequisites: A Contrast Security account, Docker Desktop, and a web browser
 
