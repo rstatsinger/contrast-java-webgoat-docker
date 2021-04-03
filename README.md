@@ -7,7 +7,7 @@ In this lab, we will use Contrast Security with a deliberately insecure applicat
 
 If you don't have a Contrast Security account, you can sign up for a free one-license Community Edition (CE) account [here](https://bit.ly/341PrFu). 
 
-We will be using Docker to run WebGoat and the Contrast Security agent in its own container, safely isolating your system. This lab has been tested for Docker Desktop on Mac. It will probably work on Linux, too. Windows instructions are below.
+We will be using Docker to run WebGoat in its own container, safely isolating your system. Contrast Security's dynamic security instrumentation will be built into the Docker image, instrumenting WebGoat at startup. This lab has been tested for Docker Desktop on Mac. It will probably work on Linux, too. Windows instructions are below.
 
 If you have trouble - or if you don't and you just want to discuss the results - please reach out to me at robert.statsinger@contrastsecurity.com.
 
