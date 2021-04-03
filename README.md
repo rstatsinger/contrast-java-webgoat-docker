@@ -47,7 +47,7 @@ Once your account is created you can click "Start Agent Setup" then click the `X
 
 ### Download This Repository
 
-Clone or [download the lab files](https://github.com/rstatsinger/IASTRASPLab/archive/refs/heads/master.zip) to your system.
+Clone this repo, or just download the files to your system.
 
 ### Copy/Paste Your API Credentials
 
