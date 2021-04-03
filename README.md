@@ -55,7 +55,7 @@ Open the file called `.env.template` in the lab files and get ready to copy/past
 
 <img src="img/OrgAPI.png" height=200px width=200px />
 
-Copy the values for `Agent Username`, `API Key` and `Agent Service Key` into the `.env.template` file.
+Copy the values for `Agent Username`, `API Key` and `Agent Service Key` into the `.env.template` file. If you are not using the Community Edition, be sure to change the CONTRAST__API__URL to match the URL given in the UI.
 
 Finally, rename the file to `.env`
 
