@@ -69,9 +69,9 @@ run
 
 You can also run `docker-compose up` directly instead.
 
-The first time will take longer as Docker downloads the resources necessary to build the container. Once it is ready there will be a message like "Browse to http://localhost:8080/WebGoat and happy hacking!"
+The first time will take longer as Docker downloads the resources necessary to build the container. Once it is ready there will be a message like "Browse to http://localhost:8080/WebGoat"
 
-Open [http://localhost:8080/WebGoat](http://localhost:8080/WebGoat) in your browser and let's keep going!
+Open [http://localhost:8080/WebGoat](http://localhost:8080/WebGoat) in your browser and you're ready!
 
 ## Cause Some Trouble!
 
