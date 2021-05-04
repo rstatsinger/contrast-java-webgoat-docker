@@ -1,9 +1,12 @@
 
 # Security Observability: Hands-On Lab using Contrast Security, Docker, and WebGoat
 
-In this lab, we will use Contrast Security with a deliberately insecure application called WebGoat to jumpstart your DevSecOps journey, hands-on. Contrast injects security instrumentation into applications at runtime, letting you observe and remediate vulnerabilities as they are manifest, in both custom code and libraries.
+This lab uses Contrast Security with a deliberately insecure application called WebGoat to jumpstart your DevSecOps journey, hands-on. Contrast injects security instrumentation into applications at runtime, letting you:
 
-## Prerequisites: A Contrast Security account, Docker Desktop, and a web browser
+- observe and remediate vulnerabilities as they are manifest, in both custom code and libraries
+- detect and block attacks
+
+## Prerequisites: A Contrast Security account, Docker Desktop, and a Web Browser
 
 If you don't have a Contrast Security account, you can sign up for a free one-license Community Edition (CE) account [here](https://bit.ly/341PrFu). 
 
@@ -15,7 +18,7 @@ If you have trouble - or even if you don't and you just want to discuss the resu
 
 ### Docker on Windows
 
-Follow the install directions [here](https://docs.docker.com/docker-for-windows/install/). It is important that you ensure that any needed dependencies (such as Hyper-V, virtualization support in BIOS or the Windows Subsystem for Linux) are enabled before you install and run Docker for Windows.
+Follow the install directions [here](https://docs.docker.com/docker-for-windows/install/). The WebGoat docker image is based on Linux, so it's important that you ensure that any needed dependencies (such as Hyper-V, virtualization support in BIOS or the Windows Subsystem for Linux) are enabled before you install and run Docker for Windows.
 
 ### Docker on Mac
 
