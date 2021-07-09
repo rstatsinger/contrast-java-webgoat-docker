@@ -6,33 +6,15 @@ This lab uses Contrast Security with a deliberately insecure application called 
 - observe and remediate vulnerabilities as they are manifest, in both custom code and libraries
 - detect and block attacks
 
+The lab runs WebGoat inside a Docker container, isolating it from your environment.
+
 ## Prerequisites: A Contrast Security account, Docker Desktop, and a Web Browser
 
 If you don't have a Contrast Security account, you can sign up for a free one-license Community Edition (CE) account [here](https://bit.ly/341PrFu). 
 
-We will be using Docker to run WebGoat in its own container, safely isolating your system. Contrast Security's dynamic security instrumentation will be built into the Docker image, instrumenting WebGoat at startup. This lab has been tested for Docker Desktop on Mac - it will probably work on other platforms, too. Instructions are below.
+Contrast Security's dynamic security instrumentation will instrument WebGoat at startup. This lab has been tested for Docker Desktop on Mac - it will probably work on other platforms, too.
 
 If you have trouble - or even if you don't and you just want to discuss the results - please reach out to me at robert.statsinger@contrastsecurity.com.
-
-## Setting up Docker
-
-### Docker on Windows
-
-Follow the install directions [here](https://docs.docker.com/docker-for-windows/install/). The WebGoat docker image is based on Linux, so it's important that you ensure that any needed dependencies (such as Hyper-V, virtualization support in BIOS or the Windows Subsystem for Linux) are enabled before you install and run Docker for Windows.
-
-### Docker on Mac
-
-Follow the install directions [here](https://docs.docker.com/docker-for-mac/install/).
-
-### Docker on Linux
-
-If you are on Ubuntu, run the following command:
-
-```
-sudo apt install docker.io
-```
-
-If you are running another distribution, install `docker.io` or `docker` with your favorite package manager.
 
 ## Lab Setup
 
