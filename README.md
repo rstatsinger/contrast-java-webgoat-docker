@@ -20,7 +20,7 @@ If you have trouble - or even if you don't and you just want to discuss the resu
 
 ### Create an Account with Contrast Security
 
-Sign up [here](https://bit.ly/341PrFu) for the Contrast Community Edition if you dont already have a Contrast account. If you are already a Contrast customer or are in an evaluation with us, you can skip ahead to the next step!
+Sign up [here](https://bit.ly/341PrFu) for the Contrast Community Edition if you dont already have a Contrast account. If you are already a Contrast customer or are in an evaluation with us, you can skip ahead to the "Download This Repository" step.
 
 Once you create a new account, you will receive an email with a confirmation link. Make sure you click that link and follow the instructions all the way until you reach the welcome page:
 
