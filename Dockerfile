@@ -7,12 +7,6 @@ FROM adoptopenjdk/openjdk8:debianslim
 ADD https://github.com/WebGoat/WebGoat/releases/download/7.1/webgoat-container-7.1-exec.jar /opt/webgoat/webgoat-container-7.1-exec.jar
 
 
-# If you are using our Community Edition, this URL is what you need. If you already have a Contrast account or
-# you are in a formal evaluation with us, change the resource name (the ce.contrastsecurity.com portion of the URL)
-# to reflect your Contrast TeamServer
-ENV CONTRAST__API__URL=https://ce.contrastsecurity.com/Contrast
-
-
 # Install Contrast agent
 RUN apt-get update \
   && apt-get install -y gnupg \
