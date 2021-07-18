@@ -10,7 +10,7 @@ The lab runs WebGoat inside a Docker container, isolating it from your environme
 
 ## Prerequisites
 
-A Contrast Security account, and docker.
+A Contrast Security account, and docker (with docker compose)
 
 If you don't have a Contrast Security account, you can sign up for a free one-license Community Edition (CE) account [here](https://bit.ly/341PrFu). 
 
@@ -36,7 +36,7 @@ Once your account is created you can click "Start Agent Setup" then click the `X
 
 Clone this repo, or just download the files to your system.
 
-### Copy/Paste Your API Credentials
+### Copy/Paste Your Contrast Securyt API Credentials
 
 Open the file called `.env.template` in the lab files and get ready to copy/paste your API credentials from your Contrast Security account. Go to the Contrast Security dashboard online, click on your name (in the upper-right corner), select "Organization" then "API" to find your credentials:
 
@@ -51,14 +51,14 @@ Finally, rename the file to `.env`
 Open a terminal and go to the lab directory. Run the following command:
 
 ```
-run
+run.sh
 ```
 
 You can also run `docker-compose up` directly instead. When the build completes and the container is run, open [http://localhost:8080/WebGoat](http://localhost:8080/WebGoat) in your browser and you're ready!
 
 ## Cause Some Trouble!
 
-Now that WebGoat is running you can start to trigger bad behavior. Feel free to play around or follow along in the lab instructions at [Lab-WebGoat.pdf](Lab-WebGoat.pdf).
+Now that WebGoat is running you can start to trigger OWASP Top Ten vulnerabilities and attacks. Feel free to play around or follow along in the lab instructions at [Lab-WebGoat.pdf](Lab-WebGoat.pdf).
 
 ## View the Results
 
