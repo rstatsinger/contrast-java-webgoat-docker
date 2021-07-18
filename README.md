@@ -8,7 +8,9 @@ This lab uses Contrast Security with a deliberately insecure application called 
 
 The lab runs WebGoat inside a Docker container, isolating it from your environment.
 
-## Prerequisites: A Contrast Security account, Docker Desktop, and a Web Browser
+## Prerequisites
+
+A Contrast Security account, and docker.
 
 If you don't have a Contrast Security account, you can sign up for a free one-license Community Edition (CE) account [here](https://bit.ly/341PrFu). 
 
