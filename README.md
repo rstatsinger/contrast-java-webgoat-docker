@@ -46,17 +46,13 @@ Finally, rename the file to `.env`
 
 ## Run WebGoat
 
-Open a Command Prompt (Windows) or terminal and go to the lab directory. Run the following command:
+Open a terminal and go to the lab directory. Run the following command:
 
 ```
 run
 ```
 
-You can also run `docker-compose up` directly instead.
-
-The first time will take longer as Docker downloads the resources necessary to build the container. Once it is ready there will be a message like "Browse to http://localhost:8080/WebGoat"
-
-Open [http://localhost:8080/WebGoat](http://localhost:8080/WebGoat) in your browser and you're ready!
+You can also run `docker-compose up` directly instead. When the build completes and the container is run, open [http://localhost:8080/WebGoat](http://localhost:8080/WebGoat) in your browser and you're ready!
 
 ## Cause Some Trouble!
 
