@@ -1,7 +1,7 @@
 
 # Security Observability: Hands-On Lab using Contrast Security, Docker, and WebGoat
 
-This lab uses Contrast Security with a deliberately insecure application called WebGoat to jumpstart your DevSecOps journey, hands-on. Contrast injects security instrumentation into applications at runtime, letting you:
+This lab uses Contrast Security with a deliberately insecure Java application called WebGoat to jumpstart your DevSecOps journey, hands-on. Contrast injects security instrumentation into applications at runtime, letting you:
 
 - observe and remediate vulnerabilities as they are manifest, in both custom code and libraries
 - detect and block attacks
@@ -10,13 +10,11 @@ The lab runs WebGoat inside a Docker container, isolating it from your environme
 
 ## Prerequisites
 
-A Contrast Security account, and docker (with docker compose)
+A Contrast Security account, git, and docker (with docker compose)
 
 If you don't have a Contrast Security account, you can sign up for a free one-license Community Edition (CE) account [here](https://bit.ly/341PrFu). 
 
-Contrast Security's dynamic security instrumentation will instrument WebGoat at startup. This lab has been tested for Docker Desktop on Mac - it will probably work on other platforms, too.
-
-If you have trouble - or even if you don't and you just want to discuss the results - please reach out to me at robert.statsinger@contrastsecurity.com.
+This lab has been tested for Docker Desktop on Mac - it will probably work on other platforms, too.
 
 ## Lab Setup
 
@@ -42,9 +40,7 @@ Open the file called `.env.template` in the lab files and get ready to copy/past
 
 <img src="img/OrgAPI.png" height=200px width=200px />
 
-Copy the values for `Agent Username`, `API Key` and `Agent Service Key` into the `.env.template` file. If you are not using the Community Edition, be sure to change the CONTRAST__API__URL to match the URL given in the UI.
-
-Finally, rename the file to `.env`
+Copy the values for `Agent Username`, `API Key` and `Agent Service Key` into the `.env.template` file. If you are not using the Community Edition, be sure to change the CONTRAST__API__URL to match the URL given in the UI.  Finally, rename the file to `.env`
 
 ## Run WebGoat
 
