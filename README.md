@@ -1,7 +1,7 @@
 
 # Security Observability: Hands-On Lab using Contrast Security, Docker, and WebGoat
 
-This lab uses Contrast Security with a deliberately insecure Java application called WebGoat to jumpstart your DevSecOps journey, hands-on. Contrast injects security instrumentation into applications at runtime, letting you:
+This lab uses Contrast Security with a deliberately insecure Java application called WebGoat. Contrast injects security instrumentation into applications at runtime, letting you:
 
 - observe and remediate vulnerabilities as they are manifest, in both custom code and libraries
 - detect and block attacks
@@ -34,7 +34,7 @@ Once your account is created you can click "Start Agent Setup" then click the `X
 
 Clone this repo, or just download the files to your system.
 
-### Copy/Paste Your Contrast Securyt API Credentials
+### Copy/Paste Your Contrast Security API Credentials
 
 Open the file called `.env.template` in the lab files and get ready to copy/paste your API credentials from your Contrast Security account. Go to the Contrast Security dashboard online, click on your name (in the upper-right corner), select "Organization" then "API" to find your credentials:
 
