@@ -62,4 +62,4 @@ You can look at the Contrast Security dashboard at any time now and view results
 
 ## Questions or Feedback
 
-If you have questions or feedback, please reach out at [robert.statsinger@contrastsecurity.com](mailto:robert.statsinger@contrastsecurity.com).
+If you have questions or feedback, please reach out at [rstatsinger@gmail.com](mailto:rstatsinger@gmail.com).
